@@ -26,7 +26,6 @@ So I built this little tool to scream (gently) near your cursor:
 
 ### Prerequisites
 
-- [Visual Studio 2022+](https://visualstudio.microsoft.com/) with `.NET desktop development` workload
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 ---
@@ -35,5 +34,18 @@ So I built this little tool to scream (gently) near your cursor:
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/control-your-copy.git
+   git clone https://github.com/Yugma2605/Control-your-Copy.git
    cd control-your-copy
+
+2. **Restore packages**
+   ```bash
+   dotnet restore
+
+3. **Build**
+   ```bash
+   dotnet build
+
+4. **Run it**
+   ```bash
+   dotnet run --project Control-your-Copy
+
